@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input__field {
+  @apply rounded-md bg-gray-100 px-4 outline-none transition-all duration-200 ease-in-out focus:bg-white focus:ring-2 focus:ring-blue-400;
+}
+
+.space-two-side {
+  @apply 2xl:px-20 xl:px-14 lg:px-10 sm:px-8 mobile:px-4;
+}
